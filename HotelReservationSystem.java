@@ -1,6 +1,3 @@
-package JDBC.Project;
-
-
 import java.sql.*;
 import java.util.Scanner;
 
@@ -236,4 +233,5 @@ public class HotelReservationSystem {
         System.out.println("ThankYou ");
     }
 }
+
 
