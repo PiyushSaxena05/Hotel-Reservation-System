@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class HotelReservationSystem {
     private static final String url = "jdbc:postgresql://localhost:5432/hotel_booking";
     private static final String username = "postgres";
-    private static final String password = "PIYUSH@111WORD016";
+    private static final String password = "Password007";
 
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
@@ -236,4 +236,5 @@ public class HotelReservationSystem {
         System.out.println("ThankYou ");
     }
 }
+
 
