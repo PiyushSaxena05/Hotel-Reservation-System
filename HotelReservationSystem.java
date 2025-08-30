@@ -9,7 +9,7 @@ public class HotelReservationSystem {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try{
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         }catch(ClassNotFoundException e){
             System.out.println(e.getMessage());
         }
@@ -233,5 +233,6 @@ public class HotelReservationSystem {
         System.out.println("ThankYou ");
     }
 }
+
 
 
